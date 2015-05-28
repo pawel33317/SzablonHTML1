@@ -1,0 +1,239 @@
+article, aside, footer, header, nav, section{
+    display: block;
+}
+@font-face {
+	font-family: Skeksis;
+	src: url(Skeksis.eot);
+}
+@font-face {
+	font-family: Skeksis;
+	src: url(Skeksis.ttf);
+}
+@font-face {
+	font-family: fugazone;
+	src: url(fugazone.eot);
+}
+@font-face {
+	font-family: fugazone;
+	src: url(fugazone.ttf);
+}
+@font-face {
+	font-family: Squealer;
+	src: url(Squealer.eot);
+}
+@font-face {
+	font-family: Squealer;
+	src: url(Squealer.ttf);
+}
+body{             
+    width:100%;
+    min-width: 720px;
+    max-width: 1100px;
+    margin:0 auto;
+}
+
+
+
+
+
+
+
+#fixx{
+    position: fixed;
+    top:0px;
+    width:100%;
+    /*background-image: url("tlo/b3.jpg");*/
+    background-color: #00152b;
+    left:0px;
+    margin:0 auto;
+    text-align: center;
+}
+
+
+
+
+
+
+header#main{
+    width:100%; 
+    height:60px;
+    text-align: left;
+    background-color:#ffffff;
+    border:1px solid #07a0fe;
+    border-radius:3px;
+    padding:1px;
+    margin-top:45px;
+}
+section#heade{ 
+    background-color:#07a0fe; 
+    border-radius:3px;
+    width:100%; 
+    height:60px;
+}
+section#heade a.logomain{
+    color:#ffffff;
+    font-family: Skeksis;
+    text-decoration: none;
+    font-size: 46px;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px #000000;
+    padding:0px 0px 0px 10px;
+} 
+#head1{
+    float:left;
+}
+#head2{
+    float:right;
+    padding:15px 8px 0px 0px;
+}
+form {
+    border:1px dashed #ffffff;
+    padding:3px;
+    border-radius: 3px;
+}
+#search-text{
+    border:1px solid #000000;
+    padding:3px;
+    margin:0px;
+    background-color:#ffffff; 
+    color:#07a0fe; 
+    border-radius: 3px;
+}
+#search-button{
+    border:1px solid #dfdfdf;
+    padding:2px;
+    margin:0px;   
+    background-color:#056098; 
+    color:#dfdfdf; 
+    text-shadow: 0px 0px 3px #000000;
+    box-shadow: 0px 0px 6px #000000;
+    border-radius: 3px;
+}
+
+
+
+
+
+nav#main{
+    text-align:left;
+    width:100%;
+    min-width: 720px;
+    max-width: 1100px;
+    margin:0 auto;
+}
+nav#main a.first{
+    margin-left:0px;
+}
+section#linki{
+    padding: 10px 0px 10px 0px;  
+}
+nav#main a{
+    padding-top:7px;
+    color: #ffffff;
+    font-family: arial, sans-serif;
+    text-decoration:none;
+    margin-left:15px;
+}
+nav#main a.menulinkuse{
+    color:#ffffff;
+    border-top:3px solid #dd4b39;  
+}
+a#menulink1:hover{
+    color:#ffffff;
+    border-top:3px solid #4989f1;  
+}
+a#menulink2:hover{
+    color:#ffffff;
+    border-top:3px solid #02b219;  
+}
+a#menulink3:hover{
+    color:#ffffff;
+    border-top:3px solid #ffcc2a;
+}
+
+
+
+
+
+
+aside#main{
+    width:20%;
+    float:left;
+    padding-top:10px;
+    padding-bottom:10px;
+    line-height: 22px;
+    /*border-left:1px solid #ebebeb;*/
+}
+aside#main a{
+    color: #666666;
+    border-left:3px solid #ffffff;
+    font-family: arial, sans-serif;
+    text-decoration:none;
+    font-size:14px;
+    padding-left:5px;
+    border-left:3px solid #ffffff;
+}
+aside#main a:hover{
+    color:#dd4b39;
+    /*border-left:3px solid #dd4b39;*/
+}
+aside#main h1{
+    color: #666666;
+    border-bottom:3px solid #02b219; 
+    font-family: arial, sans-serif;
+    text-decoration:none;
+    padding:0px 0px 5px 0px;
+    margin:0px 0px 6px 8px;
+    font-size:20px;
+}
+aside#main h1.next{
+    color: #666666;
+    border-bottom:3px solid #ffcc2a; 
+    font-family: arial, sans-serif;
+    text-decoration:none;
+    padding:0px 0px 5px 0px;
+    margin:15px 0px 6px 8px;
+    font-size:20px;
+}
+aside#main h1.next2{
+    color: #4989f1;
+    border-bottom:3px solid #4989f1; 
+    font-family: arial, sans-serif;
+    text-decoration:none;
+    padding:0px 0px 5px 0px;
+    margin:15px 0px 6px 8px;
+    font-size:20px;
+}
+
+
+
+
+
+
+section#main{
+    width:79%;
+    float:left;    font-family: arial, sans-serif;
+}
+article h1{
+    width:50%;
+    color: #dd4b39; 
+}
+article{
+    border-bottom: 1px solid #ebebeb;
+    border-radius: 3px;
+}
+
+
+
+
+
+
+footer#main{
+    width:100%;
+    border-top:1px solid #ebebeb;
+    text-align:center;
+}
+
+.clear{
+    clear:both;
+}
